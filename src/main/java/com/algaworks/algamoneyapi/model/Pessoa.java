@@ -17,7 +17,7 @@ public class Pessoa {
 	private Long codigo;
 	
 	@NotNull
-	private String name;
+	private String nome;
 	
 	@Embedded
 	private Endereco endereco;
@@ -33,12 +33,12 @@ public class Pessoa {
 		this.codigo = codigo;
 	}
 
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String nome) {
+		this.nome = nome;
 	}
 
 	public Endereco getEndereco() {
